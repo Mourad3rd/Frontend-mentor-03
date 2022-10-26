@@ -1,0 +1,97 @@
+@import url("https: //cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    padding: 1.5rem;
+    border-radius: 0.625rem;
+    -webkit-border-radius: 0.625rem;
+    -moz-border-radius: 0.625rem;
+    -ms-border-radius: 0.625rem;
+    -o-border-radius: 0.625rem;
+    box-shadow: 0px 20px 10px 14px hsl(217deg 54% 10% / 66%), 0px 20px 10px 30px hsl(216deg 72% 8% / 13%);
+}
+
+.image img {
+    border-radius: 0.625rem;
+    -webkit-border-radius: 0.625rem;
+    -moz-border-radius: 0.625rem;
+    -ms-border-radius: 0.625rem;
+    -o-border-radius: 0.625rem;
+    margin-bottom: 1em;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 1em;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    padding-bottom: 2em;
+}
+
+.data span:nth-of-type(1) {
+    color: hsl(178, 100%, 50%);
+}
+
+.data span:nth-of-type(2) {
+    color: hsl(215, 51%, 70%);
+}
+
+.data span:nth-of-type(2)::before {
+    content: "\f017";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 5px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 1em;
+}
+
+.info img {
+    width: 2em;
+    border: 1px solid white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 1em;
+}
+
+.info span {
+    color: white;
+    margin-left: 5px;
+}
